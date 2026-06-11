@@ -1,0 +1,213 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background-color: #0e0e0e;
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 40px 20px 60px;
+    line-height: 1.7;
+  }
+
+  .caixa {
+    max-width: 780px;
+    margin: auto;
+  }
+
+  .topo {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .logo {
+    max-width: 200px;
+    margin-bottom: 32px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    background: linear-gradient(to right, #4facfe, #b06ab3, #ff7a45);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+    letter-spacing: 0.02em;
+  }
+
+  .subtitulo {
+    font-size: 0.85rem;
+    color: #666;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .divisor {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #333, transparent);
+    margin: 32px 0;
+  }
+
+  .passo {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 0 24px;
+    margin-bottom: 48px;
+    align-items: start;
+  }
+
+  .numero {
+    font-size: 2rem;
+    font-weight: 300;
+    background: linear-gradient(to bottom, #4facfe, #b06ab3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    padding-top: 4px;
+    text-align: right;
+  }
+
+  .conteudo {
+    border-left: 1px solid #2a2a2a;
+    padding-left: 24px;
+  }
+
+  h2 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 0.92rem;
+    color: #aaa;
+    margin-bottom: 16px;
+    font-weight: 300;
+  }
+
+  p strong {
+    color: #ddd;
+    font-weight: 400;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 6px;
+    display: block;
+    border: 1px solid #1e1e1e;
+  }
+
+  .rodape {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 32px;
+    border-top: 1px solid #1e1e1e;
+  }
+
+  .rodape .logo {
+    opacity: 0.4;
+    margin-bottom: 0;
+  }
+</style>
+</head>
+<body>
+<div class='caixa'>
+
+  <div class='topo'>
+    <img src='https://app.reservafacil.tur.br/v2/assets/img/logo_branco.png' alt='Reserva Fácil' class='logo'>
+    <h1>Guia de Reemissão</h1>
+    <div class='subtitulo'>Reserva Fácil · Passo a passo</div>
+  </div>
+
+  <div class='divisor'></div>
+
+  <div class='passo'>
+    <div class='numero'>1</div>
+    <div class='conteudo'>
+      <h2>Excluir ou Editar o Segmento</h2>
+      <p>Com a reserva aberta, clique no <strong>X</strong> para excluir o segmento que precisa ser alterado. Se quiser editar apenas um trecho específico, use o <strong>ícone de bloco de notas com lápis</strong>.</p>
+      <img src='tela 1.png' alt='Tela 1'>
+    </div>
+  </div>
+
+  <div class='passo'>
+    <div class='numero'>2</div>
+    <div class='conteudo'>
+      <h2>Confirmar a Exclusão</h2>
+      <p>Clique em <strong>Sim</strong> para confirmar. Não se preocupe: essa ação não altera o bilhete final. É apenas o caminho necessário para cotar a reemissão.</p>
+      <img src='tela 2.png' alt='Tela 2'>
+    </div>
+  </div>
+
+  <div class='passo'>
+    <div class='numero'>3</div>
+    <div class='conteudo'>
+      <h2>Buscar o Novo Voo</h2>
+      <p>Após a exclusão, clique em <strong>Adicionar Segmento</strong> e busque o voo desejado. Escolha entre <strong>ida</strong> ou <strong>ida e volta</strong> conforme a necessidade. Selecione o voo e clique em <strong>Adicionar</strong>.</p>
+      <img src='tela 3.png' alt='Tela 3'>
+    </div>
+  </div>
+
+  <div class='passo'>
+    <div class='numero'>4</div>
+    <div class='conteudo'>
+      <h2>Selecionar e Tarifar</h2>
+      <p>Confira se o voo está correto, incluindo as bagagens, e clique em <strong>Tarifar</strong>. Um aviso pode aparecer, mas você pode prosseguir normalmente. <strong>Atenção:</strong> evite clicar em "Melhor Tarifa", pois isso pode remover a bagagem ou mover a reserva para uma família tarifária mais restrita.</p>
+      <img src='tela 4.png' alt='Tela 4'>
+    </div>
+  </div>
+
+  <div class='passo'>
+    <div class='numero'>5</div>
+    <div class='conteudo'>
+      <h2>Emitir e Avançar</h2>
+      <p>Para <strong>Latam e Gol</strong>, você pode usar a reserva original alterada ou uma reserva nova com o mesmo passageiro. Para <strong>Azul</strong>, a reemissão deve ser feita obrigatoriamente dentro do localizador original emitido.</p>
+      <p>Clique em <strong>Emitir / Enviar Op.</strong> O sistema vai alertar que já existe bilhete emitido. Como estamos fazendo uma reemissão, clique em <strong>Concordo</strong>.</p>
+      <img src='tela 5.png' alt='Tela 5'>
+    </div>
+  </div>
+
+  <div class='passo'>
+    <div class='numero'>6</div>
+    <div class='conteudo'>
+      <h2>Tela de Passageiros</h2>
+      <p>Verifique os dados dos passageiros e clique em <strong>Próxima</strong> para avançar para a tela de finalização.</p>
+      <img src='tela 6.png' alt='Tela 6'>
+    </div>
+  </div>
+
+  <div class='passo'>
+    <div class='numero'>7</div>
+    <div class='conteudo'>
+      <h2>Cálculo e Pagamento</h2>
+      <p>Na tela de pagamento, selecione a forma <strong>Faturado</strong> e escolha <strong>Cupom Substituição</strong>. Digite o número do bilhete original ou use a <strong>lupa</strong> para localizar os bilhetes em aberto.</p>
+      <p>Após carregar os dados do bilhete, clique em <strong>Calcular</strong> e informe a sua RAV. O resumo à direita exibirá a diferença de tarifa, a multa e a RAV destacada.</p>
+      <img src='tela 7.png' alt='Tela 7'>
+    </div>
+  </div>
+
+  <div class='passo'>
+    <div class='numero'>8</div>
+    <div class='conteudo'>
+      <h2>Finalizar a Reemissão</h2>
+      <p>Clique em <strong>Emitir</strong> para concluir. Se o pagamento não for faturado, altere para <strong>Cartão</strong> e insira os dados necessários. Caso prefira não finalizar, basta fechar a tela e ignorar a reserva.</p>
+      <img src='tela 8.png' alt='Tela 8'>
+    </div>
+  </div>
+
+  <div class='rodape'>
+    <img src='https://app.reservafacil.tur.br/v2/assets/img/logo_branco.png' alt='Reserva Fácil' class='logo'>
+  </div>
+
+</div>
+</body>
+</html>
